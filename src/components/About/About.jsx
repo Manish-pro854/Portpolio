@@ -1,5 +1,9 @@
 import React from 'react'
 import "./About.css"
+import Card from '../Card/Card'
+import mern from "../../assets/mern.png"
+import java from "../../assets/java.png"
+import dsa from "../../assets/dsa.png"
 
 const About = () => {
   return (
@@ -41,7 +45,11 @@ const About = () => {
           </div>
         </div>
       </div>
-      <div className="rightabout"></div>
+      <div className="rightabout">
+        <Card title="MERN STACK WEB DEVELOPER" image={mern}/>
+        <Card title="JAVA" image={java}/>
+        <Card title="DSA" image={dsa}/>
+      </div>
     </div>
   )
 }

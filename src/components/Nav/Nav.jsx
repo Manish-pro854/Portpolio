@@ -17,7 +17,7 @@ function Nav() {
     });
     t1.from("nav ul li", {
       y: -100,
-      duration: 1,
+      duration: 0.8,
       opacity: 0,
       stagger: 1,
     });
